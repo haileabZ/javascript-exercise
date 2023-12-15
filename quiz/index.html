@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>quiz app</title>
+    <link rel="stylesheet" href="quiz.css">
+</head>
+<body>
+    
+    <p id="demo"></p>
+
+   <div id="quiz-container">
+     <div id="question-container">
+        <h4 id="question">who is prime minister of Ethiopia?</h4>
+        <ul>
+         <li><input type="radio" name="choice" id="a"><label id="choice-a" for="a">mengistu haileamariam</label></li>
+         <li><input type="radio" name="choice" id="b"><label id="choice-b" for="b">abiy ahmed</label></li>
+         <li><input type="radio" name="choice" id="c"><label id="choice-c"  for="c">meles zenawi</label></li>
+         <li><input type="radio" name="choice" id="d"><label id="choice-d" for="d">hailemariam desalegn</label></li>
+        </ul>
+     </div>
+     <button id="btn" onclick="submit()">submit</button>
+   </div>
+
+
+<script src="quiz.js"></script>
+</body>
+</html>
